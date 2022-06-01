@@ -1,8 +1,5 @@
 function form(){
-
-	this.show=()=>{
-		return "WA Formulario";
-	};
+	return "WA Formulario";
 };
 
-export {form};
+module.exports = {form};
